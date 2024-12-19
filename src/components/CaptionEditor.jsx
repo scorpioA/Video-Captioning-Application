@@ -96,7 +96,7 @@ const CaptionEditor = ({ captions, onCaptionsChange }) => {
               >
                 <div>
                   <span className="text-sm text-gray-600">{caption.startTime}s - {caption.endTime}s:</span>
-                  <span className="ml-2">{caption.text}</span>
+                  <span className="ml-2 text-gray-600">{caption.text}</span>
                 </div>
                 <button
                   onClick={() => handleDeleteCaption(index)}
